@@ -2,7 +2,7 @@
 
 toy app to fetch weather by lat and lon
 
-### Dependencies tested with
+### Tested with SDK versions
 * sbt 1.9.7
 * Java 11.0.18
 * Scala 2.13.12
