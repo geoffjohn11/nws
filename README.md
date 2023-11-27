@@ -1,6 +1,6 @@
 # National Weather Service Weather Fetcher
 
-toy app to fetch weather by lat and lon
+toy app to fetch weather by lat and lon using Typelevel stack
 
 ### Tested with SDK versions
 * sbt 1.9.7
@@ -10,13 +10,12 @@ toy app to fetch weather by lat and lon
 ### Installing
 
 * clone repo
-* command ```sbt run``` executes the main app in com.weather.Application
+* command ```sbt run``` executes the main app in com.weather.Application and starts and Ember server
 * command ```sbt test``` executes the tests
 
 ### HTTP API
-
-* http://localhost:8080/api/weather?lat=39.7456&long=-97.0892 
-
+* HTTP GET request http://localhost:8080/api/weather?lat=39.7456&long=-97.0892 
+* Payload response:
 ```
 [
 	{
