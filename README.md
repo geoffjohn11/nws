@@ -10,7 +10,8 @@ toy app to fetch weather by lat and lon
 ### Installing
 
 * clone repo
-* command sbt run executes the main app in com.weather.Application 
+* command ```sbt run``` executes the main app in com.weather.Application
+* command ```sbt test``` executes the tests
 
 ### HTTP API
 
