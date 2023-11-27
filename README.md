@@ -12,10 +12,15 @@ toy app to fetch weather by lat and lon
 * clone repo
 * command sbt run executes the main app in com.weather.Application 
 
-### Executing program
+### HTTP API
 
-* How to run the program
-* Step-by-step bullets
+* http://localhost:8080/api/weather?lat=39.7456&long=-97.0892 
+
 ```
-code blocks for commands
+[
+	{
+		"shortForecast": "Mostly Clear",
+		"tempFeel": "cold"
+	}
+]
 ```
